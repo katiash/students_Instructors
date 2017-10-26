@@ -24,13 +24,13 @@ students.map( (elem) => {
 //     console.log(elem['first_name'], elem['last_name']);
 // })
 
-//For second part just use the .length attribute on each of the elements: elem.length
+//For second part just use the .length attribute on each of the elements: elem['key'].length
 //   students.map(function(student) { 
-//     return student.length; 
+//     return student['first_name'.length] + student['last_name'.length]; 
 //   }); // [8, 6, 7, 9]
   
 //   students.map((student) => {
 //     return student['first_name'.length] + student['last_name'.length];
 //   }); // [8, 6, 7, 9]
   
-//   students.map(student => student.length); // [8, 6, 7, 9]
+//   students.map(student => student['first_name'.length] + student['last_name'.length]) // [8, 6, 7, 9]
